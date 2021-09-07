@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+	@media (max-width: 599px) { 
+	
+	header {width:100%; height:80px; background-color: #02001b; margin:0 auto; border-bottom:1px solid #666; position:absolute; z-index: 100; position: fixed;}
+	header > #logo {width:150px; height:40px; margin:20px 0 0 30px; float:left;}
+	header > #logo > a > img {width:100%; height:100%;}
+
+	header > #nav > nav {width:100%; height:300px; background-color: #02001b; position:absolute; display: none; top:80px;}
+	header > #nav > nav > ul {display: flex; flex-direction: column; justify-content: space-between;}
+	header > #nav > nav > ul > li {float:left; display: flex; justify-content: center;}
+	header > #nav > nav > ul > li:nth-of-type(2n) {background-color: #333;}
+	header > #nav > nav > ul > li > a {margin:15px auto; font-size:20px; color:#eee; font-weight: 500; transition: all 300ms ease;}
+	
+	header > #head_button {float:right; width:250px; height:40px; margin:21px 0; display: none;}
+	header > #head_button > input[type="submit"] {background-color: transparent; width:180px; height:40px; cursor: pointer; border:1px solid #eee; font-size: 15px; letter-spacing: 1px; color:#fff; transition: all 300ms ease;}
+	header > #head_button > input[type="submit"]:hover {color:#fff; background-color: #ab8d69; border:none;}
+
+	header > .menu {width:50px; height:50px; float:right; display: block; margin:15px; cursor: pointer; opacity: 0.6; position: relative;}
+	header > .menu > .img {width:100%; height:100%;}
+
+
+
+
+
+
+	footer {width: 100%; height: 950px; background-color: #02001b;display: flex; flex-flow: column wrap; justify-content: flex-end; margin:-40px auto;}
+	
+	footer > .left {width:100%; height:40%; background-color: transparent; margin:0 auto; position:relative; border-bottom: 1px solid #333;}
+	footer > .left > .text > h3 {margin:20px auto; color: #ab8d69; font-size: 20px; font-weight: 400; letter-spacing: 1px; background-color: transparent; 
+		display: flex; flex-wrap: wrap; text-align: center; justify-content: center;}
+	footer > .left > .table > table {padding:10px 0; display: flex; flex-wrap: wrap; justify-content: center; text-align: center;}
+	footer > .left > .table > table td {font-size: 12px; padding:10px 10px; color:#fff;}
+
+
+
+	footer > .center {width:100%; height:30%; background-color: transparent; margin:0 auto; position: relative; border-bottom: 1px solid #333;}
+	footer > .center > .text > h3 {margin:20px auto; color: #ab8d69; font-size: 20px; font-weight: 400; letter-spacing: 1px; text-align: center;}
+	footer > .center > .table > table {padding:10px 0; display: flex; flex-wrap: wrap; justify-content: center;}
+	footer > .center > .table > table td {font-size: 13px; padding:10px 30px; color:#fff;}
+	
+
+
+	footer > .right{width:100%; height:30%; background-color: transparent; margin:0 auto; position: relative;}
+	footer > .right > .logo_img {width:91px; height:50px; margin:30px auto; display: flex; justify-content: center;}
+	footer > .right > .logo_img > a > img {width:100%; height:100%;}
+	footer > .right > p {font-size: 14px; margin:0 auto; text-align: center;}
+	footer > .right > p a {text-decoration: none; color:#ddd;}
+	.sns {display: flex; flex-wrap: nowrap; align-items: center; align-content: center; justify-content:center; width:100px; height:30px; margin:30px auto;
+			position: relative; right:4%;} 
+	.sns > a > img {width:100%; height:100%; margin:auto 20px; padding:0 10px;}
+
+}
+

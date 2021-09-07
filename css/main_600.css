@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+@media (min-width : 600px) and (max-width :1099px) {
+
+
+
+	body {background-color: #02001b;}
+
+
+	section {width:100%; height:5350px; background-color: transparent; margin:0 auto;}
+
+	#contents1 {width:100%; height:950px; background-color: transparent; margin:0 auto; display: flex; float:left;}
+
+	#contents1 > .box1 {width:60%; height:1000px; background-color: transparent; display: flex; flex-wrap: wrap; align-content: space-around; padding:0px; margin:0 auto;}
+
+	#contents1 > .box1 > .leftbox {width:100%; height:200px; background-color: transparent; display: flex; justify-content: center; flex-wrap: wrap;}
+	#contents1 > .box1 > .leftbox > h1 {font-size:42px; line-height: 50px; padding:70px 0 0 0; color:#eee; text-align: center;}
+	#contents1 > .box1 > .leftbox > h2 {font-size:15px; margin:30px 0 10px 0; color:#eee; font-weight: 400; line-height: 25px; display: flex; text-align: center;}
+	#contents1 > .box1 > .leftbox > input[name="button"] {width:150px; height:50px; margin:50px 0; border:none; background-color: #ab8d69; cursor: pointer; transition: all 300ms ease; color:#eee; font-size: 16px; display: flex; justify-content: center;}
+	#contents1 > .box1 > .leftbox > input[name="button"]:hover {color:#fff; background-color: #ab8d69; border:none;}
+
+
+
+	#contents1 > .box1 > .rightbox > {width:100%; height:400px; background-color: transparent;}
+	#contents1 > .box1 > .rightbox > img {width:80%; height:100%; display: flex; align-items: center; position: relative; top:20px; display: flex; justify-content: center; margin:0 auto;}
+
+
+
+
+
+	
+
+
+	#contents2 {width:100%; height:450px; background-color: #02001b; margin:0 auto; float:left;}
+	#contents2 > .b_box1 {width:100%; height:450px; margin:0 auto; background-color: #02001b; float: left; padding:50px;}
+	#contents2 > .b_box1 > .leftbox {width:45%; height:350px; background-color: #02001b; float:left; background-image: url(img/kitchen.jpg);
+    background-position:50% 39%; background-size: cover; background-repeat: repeat-y; background-attachment: scroll; z-index:2;  position: relative; box-shadow: 1px 1px 13px 0 rgba(0, 0, 0, 0.3);}
+
+	#contents2 > .b_box1 > .rightbox {width:55%; height:350px; background-color: rgba(255,255,255,0.9); float:right; position: relative; right:3%; top:10%;}
+	#contents2 > .b_box1 > .rightbox > h1 {margin:50px 0 0 60px; font-size: 20px; color:rgba(140, 115, 86,1); font-weight: 400;}
+	#contents2 > .b_box1 > .rightbox > h2 {margin:20px 60px; font-size: 30px; color:#111; font-weight: 600;}
+	#contents2 > .b_box1 > .rightbox > h3 { margin:20px 60px; font-size: 15px; font-weight: 300; color:#111; line-height: 24px; font-family: 'Poppins', sans-serif;}
+	#contents2 > .b_box1 > .rightbox > input[name="button"] {display: block; margin:30px 55px; border:none; background-color: transparent; cursor: pointer; font-weight: 400; text-transform: uppercase; transition: all 300ms ease; color:rgba(140, 115, 86,1);}
+	#contents2 > .b_box1 > .rightbox > input[name="button"]:hover { transform: translate(14px, 0px); color:#111;}
+
+	
+
+
+
+	#contents3 {width:100%; height:1900px; background-color: #02001b; margin:0 auto; float:left;}
+
+	#contents3 > .textbox {width:100%; height:1900px; background-color: transparent; margin:0 auto; padding:0; display: flex; flex-wrap: wrap; padding:30px;}
+	
+	#contents3 > .textbox > .box1 {width:80%; height:270px; background-color: transparent; float:left; margin:10px auto;}
+	#contents3 > .textbox > .box1 > h1 {display: flex; justify-content: center; font-weight: 400; font-size: 25px; color:#ab8d69; margin:20px 0 20px 0;}
+	#contents3 > .textbox > .box1 > h2 {display: flex; justify-content: center; font-size: 40px; margin:10px 0; letter-spacing: 1px; color:#eee;}
+	#contents3 > .textbox > .box1 > h3 {display: flex; justify-content: center; font-size: 13px; font-weight: 400; letter-spacing: 1px; color:#eee; text-align: center; margin:20px 0; line-height: 24px;}
+
+	#contents3 > .textbox > .imgbox1 {width:40%; height:350px; background-color: transparent; float:right; margin:20px auto; display: flex; justify-content: center;}
+	#contents3 > .textbox > .imgbox1 > img {width:100%; height:100%;}
+	
+
+	
+	#contents3 > .textbox > .box3 {width:40%; height:350px; background-color: transparent; float:right; margin:20px auto; text-align: center;}
+	#contents3 > .textbox > .box3 > h1 {display: flex; flex-direction: row; justify-content: center; font-weight: 400; font-size: 25px; color:#ab8d69; margin:20px auto;}
+	#contents3 > .textbox > .box3 > .text1 {display: flex; flex-direction: row; font-weight: 400; font-size:13px; color:#eee; line-height: 25px;}
+	#contents3 > .textbox > .box3 > .text2 {display: flex; flex-direction: row; font-weight: 400; font-size:13px; color:#eee; line-height: 25px;}
+
+
+
+	#contents4 {width:100%; height:550px; background-color: #02001b; margin:0 auto; float:left;}
+	#contents4 > .c_box1 {width:100%; height:550px; margin:0 auto; background-color: #02001b; float: left; display: flex; flex-wrap: wrap; padding:50px;}
+	#contents4 > .c_box1 > .leftbox {width:45%; height:350px; background-color: #02001b; margin:0 auto; float:left; background-image: url(img/people.jpg); box-shadow: 1px 1px 13px 0 rgba(0, 0, 0, 0.3); z-index:2; position: relative; background-size:500px 500px;}
+
+	#contents4 > .c_box1 > .rightbox {width:55%; height:350px; background-color: rgba(255,255,255,0.9); margin:0 auto; float:right; position: relative; text-align: center; right:3%; top:10%; padding:0 60px;}
+	#contents4 > .c_box1 > .rightbox > h1 {margin:50px 0 0 0; font-size: 20px; color:rgba(140, 115, 86,1); font-weight: 400;}
+	#contents4 > .c_box1 > .rightbox > h2 {margin:20px 0; font-size: 30px; color:#111; font-weight: 600;}
+	#contents4 > .c_box1 > .rightbox > h3 { margin:20px 0; font-size: 15px; font-weight: 400; color:#111; line-height: 24px;}
+	#contents4 > .c_box1 > .rightbox > input[name="button"] {display: block; margin:30px auto; border:none; background-color: transparent; cursor: pointer; font-weight: 400; text-transform: uppercase; transition: all 300ms ease; color:rgba(140, 115, 86,1); display: flex;}
+	#contents4 > .c_box1 > .rightbox > input[name="button"]:hover { transform: translate(14px, 0px); color:#111;}1
+	
+
+	#contents5 {width:100%; height:750px; background-color: #02001b; margin:0 auto; float:left;}
+	#contents5 > .box {width:100%; height:750px; background-color: transparent; margin:0; float:left; display: flex; flex-wrap: wrap;}	
+	#contents5 > .box > .textbox {width:80%; height:300px; background-color: transparent; margin:0 auto; text-align: center;}
+	#contents5 > .box > .textbox > h1 {display: flex; justify-content: center; font-weight: 400; font-size: 25px; color:#ab8d69; margin:0 auto;}
+	#contents5 > .box > .textbox > h2 {display: flex; justify-content: center; font-size: 25px; margin:10px 0; letter-spacing: 1px; color:#eee;} 
+	#contents5 > .box > .textbox > p {display: flex; justify-content: center; font-size: 13px; font-weight: 400; letter-spacing: 1px; color:#eee; text-align: center; 		margin:20px 0 0px 0; line-height: 24px;} 
+	#contents5 > .box > .imgbox {width:80%; height:500px; background-color:transparent; margin:0 auto; display: flex; flex-wrap: wrap; align-items: center;}
+	#contents5 > .box > .imgbox > .meat {width:40%; height:60%; position: relative; left:30%; top:5%; z-index: 50;}
+	#contents5 > .box > .imgbox > .tomato {width:20%; height:30%; position: relative; right:32%; bottom:25%;}
+	#contents5 > .box > .imgbox > .mushroom {width:20%; height:30%; position: relative; right:55%; top:32%;}
+	#contents5 > .box > .imgbox > .sauce {width:15%; height:25%; position: relative; bottom:40%; left:55%;}
+	#contents5 > .box > .imgbox > .lemon {width:20%; height:20%; position: relative; left:70%; bottom:10%;}
+	#contents5 > .box > .imgbox > .leaf {width:20%; height:30%; position: relative; right:5%; bottom:23%;}
+
+	#contents6 {width:100%; height: 700px; background-color: blue; margin:10px auto 0 auto; float:left; background-image: url(img/last_img.jpg); position: relative; background-attachment: fixed; overflow: visible; background-position: 50% 50%;}
+	#contents6 > .box {width:60%; height:100%; background-color: transparent; margin:0 auto; padding:300px 0; display: flex; flex-wrap: wrap; justify-content:center;}
+
+	#contents6 > .box > input[name="button1"] {width:260px; height:50px; border:none; margin:0px auto; float:left; cursor: pointer; letter-spacing: 1.5px; transition: all 300ms ease; background-color: #ab8d69; color:#ddd; font-size: 16px; font-weight: 700; position: absolute;}
+	#contents6 > .box > input[name="button2"] {width:260px; height:50px; border:none; margin:250px auto; float:right; cursor: pointer; letter-spacing: 1.5px; transition: all 300ms ease; background-color: #ab8d69; color:#ddd; font-size: 16px; font-weight: 700; position: absolute; bottom:1px;}
+	#contents6 > .box > input[name="button1"]:hover {background-color: #ab8d69; border:none;}
+	#contents6 > .box > input[name="button2"]:hover {background-color: #ab8d69; border:none;}
+
+
+
+
+
+
+
+
+}
