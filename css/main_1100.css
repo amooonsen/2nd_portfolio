@@ -73,7 +73,7 @@
 	#contents4 > .c_box1 > .rightbox > h3 { margin:20px 60px; font-size: 15px; font-weight: 400; color:#111; line-height: 24px;}
 	#contents4 > .c_box1 > .rightbox > input[name="button"] {display: block; margin:30px 55px; border:none; background-color: transparent; cursor: pointer; font-weight: 400; text-transform: uppercase;
 	transition: all 300ms ease; color:rgba(140, 115, 86,1);}
-	#contents4 > .c_box1 > .rightbox > input[name="button"]:hover { transform: translate(14px, 0px); color:#111;}1
+	#contents4 > .c_box1 > .rightbox > input[name="button"]:hover { transform: translate(14px, 0px); color:#111;}
 	
 
 	#contents5 {width:100%; height:750px; background-color: #02001b; margin:0 auto; float:left;}

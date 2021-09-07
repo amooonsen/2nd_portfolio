@@ -22,7 +22,7 @@
 
 
 
-	#contents1 > .box1 > .rightbox > {width:100%; height:400px; background-color: transparent;}
+	#contents1 > .box1 > .rightbox {width:100%; height:400px; background-color: transparent;}
 	#contents1 > .box1 > .rightbox > img {width:80%; height:100%; display: flex; align-items: center; position: relative; top:20px; margin:0 auto;}
 
 
@@ -78,7 +78,7 @@
 	#contents4 > .c_box1 > .rightbox > h2 {margin:20px 0; font-size: 30px; color:#111; font-weight: 600;}
 	#contents4 > .c_box1 > .rightbox > h3 { margin:20px 0; font-size: 15px; font-weight: 400; color:#111; line-height: 24px;}
 	#contents4 > .c_box1 > .rightbox > input[name="button"] {display: block; margin:30px auto; border:none; background-color: transparent; cursor: pointer; font-weight: 400; text-transform: uppercase; transition: all 300ms ease; color:rgba(140, 115, 86,1); display: flex;}
-	#contents4 > .c_box1 > .rightbox > input[name="button"]:hover { transform: translate(14px, 0px); color:#111;}1
+	#contents4 > .c_box1 > .rightbox > input[name="button"]:hover { transform: translate(14px, 0px); color:#111;}
 	
 
 	#contents5 {width:100%; height:650px; background-color: #02001b; margin:0 auto; float:left;}
@@ -102,6 +102,7 @@
 	#contents6 > .box > input[name="button2"] {width:260px; height:50px; border:none; margin:20px auto; float:right; cursor: pointer; letter-spacing: 1.5px; transition: all 300ms ease; background-color: #ab8d69; color:#ddd; font-size: 16px; font-weight: 700;}
 	#contents6 > .box > input[name="button1"]:hover {background-color: #ab8d69; border:none;}
 	#contents6 > .box > input[name="button2"]:hover {background-color: #ab8d69; border:none;}
+
 
 
 

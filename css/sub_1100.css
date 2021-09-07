@@ -18,7 +18,7 @@
 	#slider > h1 {color:#eee; line-height: 24px; margin: 10px auto; font-size: 3em; font-family: 'Playfair Display', serif;}
 
 
-	section {width:1200px; height:3500px; background-color:transparent; margin: 40px auto; display: flex; flex-flow:row; justify-content: space-between; align-items: flex-start; align-content: center;}
+	.mainWrap {width:1200px; height:3500px; background-color:transparent; margin: 40px auto; display: flex; flex-flow:row; justify-content: space-between; align-items: flex-start; align-content: center;}
 
 	main {width:55%; height:3500px; background-color: transparent; display: flex; flex-direction: column; align-items: center;}
 
